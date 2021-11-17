@@ -13,8 +13,8 @@ export const treeMapTilePropMapping = {
     dice: treemapDice,
     slice: treemapSlice,
     sliceDice: treemapSliceDice,
-    squarify: treemapSquarify,
-    resquarify: treemapResquarify,
+    squarify: treemapSquarify.ratio(1),
+    resquarify: treemapResquarify.ratio(1),
 }
 
 export const treeMapTilePropKeys = Object.keys(treeMapTilePropMapping)
